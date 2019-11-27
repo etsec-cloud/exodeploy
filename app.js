@@ -12,6 +12,6 @@ app.get('/api', function (req, res) {
 
 app.use(express.static(__dirname + '/src'));
 
-app.listen(3000, function () {
-    console.log('Example app listening on port 3000!')
+app.listen(process.env.PORT, function () {
+    console.log('Example app listening!')
 });
