@@ -1,0 +1,23 @@
+{
+  "name": "drag-scare",
+  "version": "1.0.0",
+  "description": "IIM A2 DW - Deploy front and api course",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsaunie/drag-scare.git"
+  },
+  "author": "Jean Saunie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsaunie/drag-scare/issues"
+  },
+  "homepage": "https://github.com/jsaunie/drag-scare#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
